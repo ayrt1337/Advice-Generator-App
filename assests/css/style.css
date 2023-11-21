@@ -1,0 +1,82 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+html, body{
+    height: 100%;
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main .advice{
+    position: relative;
+    background-color: #36454F;
+    height: auto;
+    width: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+main .advice #tittle{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: 	#50C878;
+    font-size: 20px;
+}
+main .advice #advice{
+    opacity: 80%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+main .advice #border{
+    margin-bottom: 60px;
+    margin-top: 40px;
+    width: 85%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+main .advice .img{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #50C878;
+    border: solid 1px #50C878;
+    top: 92%;
+    position: absolute;
+    border-radius: 50%;
+}
+main .advice .img #dice{
+    padding: 20px;
+}
+@media (max-width: 450px){
+    main .advice #advice{
+        font-size: 27px;
+    }
+    main .advice #tittle{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    main .advice #border{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    main .advice .img{
+        width: 50px;
+        height: 50px;
+    }
+    main .advice .img #dice{
+        padding: 23.5px;
+    }
+}
